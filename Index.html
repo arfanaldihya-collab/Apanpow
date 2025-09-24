@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arkonalia — Personal Branding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #dbeafe, #fef9c3);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #2563eb;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #93c5fd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .skills, .hobbies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #f9fafb;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: rgba(255,255,255,0.6);
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Apanpow
+    </h1>
+    <p>Personal Branding &amp; Skills Portfolio</p>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <p>Halo! Nama saya <strong>Arfan al dihya</strong>. Saya berusia <strong>16 tahun</strong>, 
+    berasal dari <strong>SMP N 28 Batam</strong>, dan tinggal di <strong>Buana Regency Cikitu</strong>. 
+    Saya memiliki minat besar dalam dunia teknologi dan pengembangan web.</p>
+  </section>
+
+  <section>
+    <h2>Skill Coding</h2>
+    <div class="skills">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Dan lain-lain</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hobi & Keterampilan</h2>
+    <div class="hobbies">
+      <div class="card">Membuat Website</div>
+      <div class="card">Belajar Coding</div>
+      <div class="card">Desain UI/UX</div>
+      <div class="card">Menulis Ide Kreatif</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Arkonalia — Dibuat dengan ❤️
+  </footer>
+
+</body>
+</html>
